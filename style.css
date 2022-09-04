@@ -126,8 +126,8 @@ button:active {
 
 @media screen and (max-width: 600px) {
     .box-text {
-        width: 500px;
-        margin: 0 20px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .radious-img {
@@ -138,44 +138,7 @@ button:active {
         border-radius: 0 0 20px 20px;
     }
     
-    .titulo-perfume {
-        font-family: var(--fonte-titulo);
-        font-size: 3em;
-    }
-
-    .tipo-perfume{
-        font-family: var(--fonte-texto);
-        letter-spacing: 0.2em;
-        font-size: 1em;
-        opacity: 0.6;
-    }
     
-    .descricao-perfume {
-        font-family: var(--fonte-texto);
-        font-weight: 500;
-        opacity: 0.7;
-        font-size: 1.3em;
-        line-height: 1.5em;
-
    
-    }
-
-    .preco__promocao {
-        color:var(--cor-verde) ;
-        font-size: 3em;
-        font-family: var(--fonte-titulo);
-    }
-    
-    .preco__normal {
-        font-family: var(--fonte-texto);
-        text-decoration: line-through;
-        opacity: 0.6;
-        padding-left: 20px;
-    }
-
-    .container {
-        height: 430px;
-    }
-
   
 }
